@@ -1,0 +1,153 @@
+
+#mainview {
+	-fx-background-color:#fcf2c2;
+}
+
+#right {
+	-fx-padding:0px;
+}
+
+#buttonbox {
+	-fx-padding:10px;
+}
+
+#descbox {
+}
+
+#addremove {
+	-fx-padding: 10px 10px 10px 10px;
+	-fx-background-color:#eddf9f;
+}
+
+HBox {
+	-fx-background-color:#eddf9f;	
+}
+
+VBox {
+	-fx-background-color:#eddf9f;
+	-fx-padding:10px;
+}
+
+#stockpane {
+	-fx-background-color:#fcf2c2;
+	-fx-padding:10px;
+}
+
+#invoicepane {
+	-fx-background-color:#fcf2c2;
+	-fx-padding:10px;
+}
+
+TextArea {
+}
+
+BorderPane{
+	-fx-background-color:#fcf2c2;
+	-fx-padding:15px;
+}
+
+.list-cell {
+    -fx-font: 14pt "monospace";
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+}
+
+#counter *.text {
+    -fx-text-alignment: center;
+}
+#totalprice *.text {
+    -fx-text-alignment: center;
+}
+
+#leftright {
+	-fx-background-color:#fcf2c2;
+}
+
+#right {
+	-fx-background-color:#fcf2c2;
+	-fx-padding:0px;
+}
+
+#qntprice {
+	-fx-padding:0px;
+}
+
+#adddelete {
+	-fx-padding: 0px;
+}
+
+#menu {
+	-fx-background-color: gray;
+}
+
+.tab {
+	-fx-background-color:#eddf9f;
+    -fx-focus-color:#eddf9f;
+    -fx-faint-focus:#eddf9f;
+}
+.tab:hover {
+    -fx-color: -fx-hover-base;
+}
+
+.tab:selected {
+    -fx-background-color:#fcf2c2;
+    -fx-focus-color:#fcf2c2;
+    -fx-faint-focus:#fcf2c2;
+}
+
+.tab:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.tab:disabled:hover {
+    -fx-color: -fx-base;
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.tab .tab-label {
+	-fx-font: 16px "Arial";
+	-fx-font-weight: bold;
+	-fx-text-fill: #1a1a1a;
+}
+
+.tab-pane .tab-header-background { 
+	-fx-background-color: #eddf9f;
+}
+
+.list-view {
+	-fx-background-color: #fefae7;
+	-fx-text-fill: #1a1a1a;
+}
+
+.list-view .list-cell:even {
+	-fx-background-color: #fefae7;
+	-fx-text-fill: #1a1a1a;
+}
+
+.list-view .list-cell:odd {
+	-fx-background-color: #fdf5ce;
+	-fx-text-fill: #1a1a1a;
+}
+
+.text-area .content {
+	-fx-background-color: #fefae7;
+	-fx-text-fill: #1a1a1a;
+}
+
+.label {
+	-fx-text-fill: #1a1a1a;
+}
+
+.text {
+	-fx-text-fill: #1a1a1a;
+}
+
+.button {
+	-fx-text-fill: #1a1a1a;
+	-fx-font-weight: bold;
+}
